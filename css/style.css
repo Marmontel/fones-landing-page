@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    background: linear-gradient(0, #120c56, #000000);
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: yellow;
+    display: flexbox;
+    height: 110.8vw;
+    justify-items: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo h3 {
+    font-size: 28px;
+    position: relative;
+    top: 6px;
+    color: #fff;
+}
+
+.logo h1 {
+    position: relative;
+    top: -1.6vw;
+    font-size: 43px;
+    color: yellow;
+}
+
+.logo {
+    max-width: 100%;
+    height: 100px;
+    background-color: transparent;
+    justify-items: center;
+    align-items: center;
+}
+
+.section-1 {
+    background-image: url('/img/i12-air.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: min-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: transparent;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    top: 0vw;
+    box-sizing: border-box;
+    border-color: transparent;
+    border-style: solid;
+    width: 100%;
+    height: max-content;
+}
+
+.image-1 {
+    height: 100%;
+    width: 400px;
+    max-width: max-content;
+    position: relative;
+    left: 13vw;
+    top: 0vw;
+}
+
+/* .area-title {
+    color: yellow;
+    position: relative;
+    left: 25vw;
+    top: 3px;
+}
+
+.model-text {
+    color: #fff;
+    font-size: 40px;
+    position: relative;
+    top: 2.5vw;
+    left: -4vw;
+    max-width: max-content;
+    height: max-content;
+    box-sizing: border-box;
+    border: solid;
+    background-color: blue;
+}
+
+.phone-model {
+    color: yellow;
+    font-size: 50px;
+    position: relative;
+    top: 4vw;
+    left: -10.35vw;
+    width: 13vw;
+    height: max-content;
+    box-sizing: border-box;
+    border-style: solid;
+    background-color: blue;
+}
+
+.icon-touch {
+    display: flex;
+    width: 90px;
+    height: 90px;
+    max-width: max-content;
+    max-height: max-content;
+    position: relative;
+    left: 26vw;
+    top: 4.4vw;
+    background-color: blue;
+}
+
+.touch-text {
+    font-size: 30px;
+    display: flex;
+    position: relative;
+    left: 25vw;
+    top: 4.8vw;
+    height: max-content;
+    width: 290vw;
+    color: #fff;
+    box-sizing: border-box;
+    border-style: solid;
+    background-color: red;
+
+}
+
+.icon-phone {
+    display: flex;
+    width: 79px;
+    height: 79px;
+    max-width: 83px;
+    position: relative;
+    left: 6.4vw;
+    top: 9.2vw;
+    background-color: blue;
+}
+
+.phone-text {
+    font-size: 30px;
+    display: flex;
+    position: relative;
+    left: 6vw;
+    top: 9vw;
+    width: 190vw;
+    height: max-content;
+    box-sizing: border-box;
+    border-style: solid;
+    color: #fff;
+    background-color: red;
+}
+
+.icon-charger {
+    display: flex;
+    height: 82px;
+    width: 82px;
+    max-width: 83px;
+    position: relative;
+    left: -11vw;
+    top: 13vw;
+    background-color: blue;
+}
+
+.text-charger {
+    background-color: red;
+    display: flex;
+    position: relative;
+    left: -11vw;
+    top: 15vw;
+    width: 55vw;
+    height: max-content;
+    box-sizing: border-box;
+    border-style: solid;
+    color: #fff;
+}
+
+.delivery {
+    align-items: center;
+    background-color: red;
+    font-size: 42px;
+    display: flex;
+    max-width: max-content;
+    position: relative;
+    width: 1500vw;
+    height: max-content;
+    left: -35vw;
+    top: 18vw;
+    box-sizing: border-box;
+    border-style: solid;
+    color: #fff;
+} */
+
+.section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-2 {
+    display: flex;
+    position: relative;
+    top: 2.5vw;
+    box-sizing: border-box;
+    border-color: transparent;
+    border-style: solid;
+    width: 1950px;
+}
+
+.description-1 {
+    color: #fff;
+    font-family: 'Saira Extra Condensed';
+    font-size: 35px;
+    text-align: left;
+    display: flex;
+    max-width: max-content;
+    position: relative;
+    left: 12vw;
+    margin-top: 6vw;
+}
+
+.description-img {
+    display: flex;
+    position: relative;
+    left: 16vw;
+    width: 420px;
+    height: auto;
+}
+
+.container-3 {
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 5vw;
+    box-sizing: border-box;
+    border-color: transparent;
+    border-style: solid;
+    width: 100%;
+    height: max-content;
+    line-height: 68px;
+}
+
+.description-2-title {
+    position: relative;
+    left: 40vw;
+    top: -12vw;
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+    width: 100%;
+}
+
+.container-3 span {
+    color: yellow;
+    top: 3vw;
+    left: -10vw;
+    font-size: 93px;
+    max-width: max-content;
+}
+
+.container-3 img {
+    position: relative;
+    left: -25vw;
+}
+
+.description-treinning {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    text-align: left;
+    width: 155vw;
+    display: flex;
+    position: relative;
+    left: -20.5vw;
+    top: 7.5vw;
+    line-height: 35px;
+}
